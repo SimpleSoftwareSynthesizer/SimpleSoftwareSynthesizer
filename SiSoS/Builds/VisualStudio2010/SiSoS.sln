@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{028A2A0D-7FC3-9DB2-F963-9B1AEAFD4E16}") = "SiSoS", "SiSoS.vcxproj", "{2E664CA3-CC34-E4E6-C747-7A64FB0D197D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		SiSoS|Win32 = SiSoS|Win32
+		SiSoSRelease|Win32 = SiSoSRelease|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E664CA3-CC34-E4E6-C747-7A64FB0D197D}.SiSoS|Win32.ActiveCfg = SiSoS|Win32
+		{2E664CA3-CC34-E4E6-C747-7A64FB0D197D}.SiSoS|Win32.Build.0 = SiSoS|Win32
+		{2E664CA3-CC34-E4E6-C747-7A64FB0D197D}.SiSoSRelease|Win32.ActiveCfg = SiSoSRelease|Win32
+		{2E664CA3-CC34-E4E6-C747-7A64FB0D197D}.SiSoSRelease|Win32.Build.0 = SiSoSRelease|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
