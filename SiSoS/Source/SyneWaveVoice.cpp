@@ -23,13 +23,15 @@ SyneWaveVoice::SyneWaveVoice(ADSRController* controller_)
 		
 		/*
 		
-			TODO
+			Aufgrund der gedrückten MIDI-Note werden hier die Zyklen pro Sekunde ausgerechnet.
+            Danach wird ausgerechnet, wie viele Zyklen pro Symple für die gegenwärtige Samplerate notwendig sind.
 		
 		*/
 		
         double cyclesPerSecond = MidiMessage::getMidiNoteInHertz (midiNoteNumber);
         double cyclesPerSample = cyclesPerSecond / getSampleRate();
 
+        
         angleDelta = cyclesPerSample * 2.0 * double_Pi;
     }
 

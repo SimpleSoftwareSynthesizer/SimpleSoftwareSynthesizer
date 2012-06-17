@@ -29,7 +29,7 @@ public:
 
 	/*
 		Aufgerufen, wenn eine Taste losgelassen wird.
-		TODO: Entferne allowTailOff
+		
 	*/
 	void stopNote (const bool allowTailOff);
 
@@ -52,7 +52,6 @@ private:
     double currentAngle, // Gegenwärtiger Winkel
 		   angleDelta, // Winkelverschiebung
 		   level, // Lautstärke
-		   tailOff; // REMOVE
 	ADSR adsr; /* Das Modell der ADSR-Kurve. Jede Voice benötigt ihre eigene unabhängige Kurve. */
 };
 
